@@ -33,6 +33,8 @@ The Muddy Mix dataset is used for training and evaluation. The dataset files are
 
 To create the CSV files, we filtered the dataset by comparing the maximum volume of the speech components to the overall mix. Only videos containing speech with a volume above a certain threshold were included in the valid dataset for training.
 
+For more information on the Muddy Mix dataset, refer to [VisAH GitHub](https://github.com/WikiChao/VisAH).
+
 ## Training
 
 To train the model:
@@ -69,5 +71,17 @@ If you use this code, please cite the original DAVIS paper:
     month     = {December},
     year      = {2024},
     pages     = {35-49}
+}
+```
+
+And the Muddy Mix dataset:
+
+```
+@inproceedings{huang2025learning,
+  title={Learning to Highlight Audio by Watching Movies},
+  author={Huang, Chao and Gao, Ruohan and Tsang, JMF and Kurcius, Jan and Bilen, Cagdas and Xu, Chenliang and Kumar, Anurag and Parekh, Sanjeel},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={23925--23935},
+  year={2025}
 }
 ```
