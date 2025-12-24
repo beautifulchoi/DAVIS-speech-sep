@@ -1,0 +1,140 @@
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_setup.py:_flush():80] Configure stats pid to 276718
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_setup.py:_flush():80] Loading settings from /root/.config/wandb/settings
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_setup.py:_flush():80] Loading settings from /home/prj/DAVIS/scripts/wandb/settings
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/prj/DAVIS/scripts/wandb/run-20251216_142915-tmuwcv9p/logs/debug.log
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/prj/DAVIS/scripts/wandb/run-20251216_142915-tmuwcv9p/logs/debug-internal.log
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_init.py:init():841] calling init triggers
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'id': 'muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001', 'num_mix': 2, 'arch_frame': 'clip', 'weights_frame': '', 'weights_unet': '', 'num_channels': 64, 'num_frames': 11, 'stride_frames': 1, 'img_pool': 'maxpool', 'loss': 'l1', 'weighted_loss': 0, 'log_freq': 1, 'split': 'test', 'num_gpus': 1, 'gpu_ids': '1', 'wandb_project': 'DAVIS', 'wandb_run_name': 'muddy_mix_speech_sep', 'wandb_mode': 'online', 'batch_size_per_gpu': 16, 'workers': 4, 'num_val': -1, 'num_vis': 3, 'audLen': 65535, 'audRate': 11025, 'stft_frame': 1022, 'stft_hop': 256, 'imgSize': 224, 'frameRate': 1.0, 'seed': 1234, 'ckpt': '/home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001', 'vis': '/home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001/visualization/', 'dev_mode': True, 'disp_iter': 200, 'eval_epoch': 1, 'num_train_timesteps': 300, 'num_sample_timesteps': 300, 'mode': 'train', 'list_train': '/home/prj/data/valid_muddy_mix_audios_train.csv', 'list_val': '/home/prj/data/valid_muddy_mix_audios_val.csv', 'dup_trainset': 5, 'num_epoch': 400, 'lr_frame': 0.0001, 'lr_unet': 0.0001, 'lr_steps': [100, 200, 300], 'beta1': 0.9, 'weight_decay': 0.0001, 'batch_size': 16, 'device': device(type='cuda'), 'best_err': inf, 'best_sdr': -inf, 'testing': False, 'epoch_iters': 2675, '_wandb': {}}
+2025-12-16 14:29:15,223 INFO    MainThread:276718 [wandb_init.py:init():889] starting backend
+2025-12-16 14:29:15,507 INFO    MainThread:276718 [wandb_init.py:init():892] sending inform_init request
+2025-12-16 14:29:15,513 INFO    MainThread:276718 [wandb_init.py:init():900] backend started and connected
+2025-12-16 14:29:15,534 INFO    MainThread:276718 [wandb_init.py:init():970] updated telemetry
+2025-12-16 14:29:15,541 INFO    MainThread:276718 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-16 14:29:16,468 INFO    MainThread:276718 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-16 14:29:16,659 INFO    MainThread:276718 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-16 14:29:16,659 INFO    MainThread:276718 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-16 14:29:16,659 INFO    MainThread:276718 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-16 14:29:16,659 INFO    MainThread:276718 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-16 14:29:16,662 INFO    MainThread:276718 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-16 14:31:01,452 INFO    wandb-AsyncioManager-main:276718 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-16 14:31:01,452 INFO    wandb-AsyncioManager-main:276718 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.
+2025-12-16 14:31:01,878 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,891 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,892 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,894 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,898 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,899 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,934 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,937 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-12-16 14:31:01,947 ERROR   wandb-AsyncioManager-main:276718 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 38, in publish
+    await self._send_server_request(request)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 64, in _send_server_request
+    await self._writer.drain()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/conda/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost

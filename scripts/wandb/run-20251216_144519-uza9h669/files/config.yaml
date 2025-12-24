@@ -1,0 +1,192 @@
+wandb_version: 1
+
+id:
+  desc: null
+  value: muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001
+num_mix:
+  desc: null
+  value: 2
+arch_frame:
+  desc: null
+  value: clip
+weights_frame:
+  desc: null
+  value: ''
+weights_unet:
+  desc: null
+  value: ''
+num_channels:
+  desc: null
+  value: 64
+num_frames:
+  desc: null
+  value: 11
+stride_frames:
+  desc: null
+  value: 1
+img_pool:
+  desc: null
+  value: maxpool
+loss:
+  desc: null
+  value: l1
+weighted_loss:
+  desc: null
+  value: 0
+log_freq:
+  desc: null
+  value: 1
+split:
+  desc: null
+  value: test
+num_gpus:
+  desc: null
+  value: 1
+gpu_ids:
+  desc: null
+  value: '1'
+wandb_project:
+  desc: null
+  value: DAVIS
+wandb_run_name:
+  desc: null
+  value: muddy_mix_speech_sep
+wandb_mode:
+  desc: null
+  value: online
+batch_size_per_gpu:
+  desc: null
+  value: 16
+workers:
+  desc: null
+  value: 4
+num_val:
+  desc: null
+  value: -1
+num_vis:
+  desc: null
+  value: 3
+audLen:
+  desc: null
+  value: 65535
+audRate:
+  desc: null
+  value: 11025
+stft_frame:
+  desc: null
+  value: 1022
+stft_hop:
+  desc: null
+  value: 256
+imgSize:
+  desc: null
+  value: 224
+frameRate:
+  desc: null
+  value: 1.0
+seed:
+  desc: null
+  value: 1234
+ckpt:
+  desc: null
+  value: /home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001
+vis:
+  desc: null
+  value: /home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001/visualization/
+dev_mode:
+  desc: null
+  value: false
+disp_iter:
+  desc: null
+  value: 200
+eval_epoch:
+  desc: null
+  value: 1
+num_train_timesteps:
+  desc: null
+  value: 300
+num_sample_timesteps:
+  desc: null
+  value: 300
+mode:
+  desc: null
+  value: train
+list_train:
+  desc: null
+  value: /home/prj/data/valid_muddy_mix_audios_train.csv
+list_val:
+  desc: null
+  value: /home/prj/data/valid_muddy_mix_audios_val.csv
+dup_trainset:
+  desc: null
+  value: 5
+num_epoch:
+  desc: null
+  value: 400
+lr_frame:
+  desc: null
+  value: 0.0001
+lr_unet:
+  desc: null
+  value: 0.0001
+lr_steps:
+  desc: null
+  value:
+  - 100
+  - 200
+  - 300
+beta1:
+  desc: null
+  value: 0.9
+weight_decay:
+  desc: null
+  value: 0.0001
+batch_size:
+  desc: null
+  value: 16
+device:
+  desc: null
+  value: cuda
+best_err:
+  desc: null
+  value: .inf
+best_sdr:
+  desc: null
+  value: -.inf
+testing:
+  desc: null
+  value: false
+epoch_iters:
+  desc: null
+  value: 2675
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.10
+    cli_version: 0.16.6
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1765896319.0
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 105
+      2:
+      - 1
+      - 41
+      - 53
+      - 55
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      - 61
+      4: 3.11.10
+      5: 0.16.6
+      8:
+      - 5
+      13: linux-x86_64

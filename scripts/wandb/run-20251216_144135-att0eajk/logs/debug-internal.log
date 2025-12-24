@@ -1,0 +1,103 @@
+2025-12-16 14:41:35,863 INFO    StreamThr :287231 [internal.py:wandb_internal():86] W&B internal server running at pid: 287231, started at: 2025-12-16 14:41:35.862032
+2025-12-16 14:41:35,867 DEBUG   HandlerThread:287231 [handler.py:handle_request():146] handle_request: status
+2025-12-16 14:41:35,868 INFO    WriterThread:287231 [datastore.py:open_for_write():87] open: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/run-att0eajk.wandb
+2025-12-16 14:41:35,869 DEBUG   SenderThread:287231 [sender.py:send():379] send: header
+2025-12-16 14:41:35,877 DEBUG   SenderThread:287231 [sender.py:send():379] send: run
+2025-12-16 14:41:36,461 INFO    SenderThread:287231 [dir_watcher.py:__init__():211] watching files in: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files
+2025-12-16 14:41:36,461 INFO    SenderThread:287231 [sender.py:_start_run_threads():1124] run started: att0eajk with start time 1765896095.862108
+2025-12-16 14:41:36,470 DEBUG   HandlerThread:287231 [handler.py:handle_request():146] handle_request: check_version
+2025-12-16 14:41:36,471 DEBUG   SenderThread:287231 [sender.py:send_request():406] send_request: check_version
+2025-12-16 14:41:36,557 DEBUG   HandlerThread:287231 [handler.py:handle_request():146] handle_request: run_start
+2025-12-16 14:41:36,619 DEBUG   HandlerThread:287231 [system_info.py:__init__():26] System info init
+2025-12-16 14:41:36,619 DEBUG   HandlerThread:287231 [system_info.py:__init__():41] System info init done
+2025-12-16 14:41:36,619 INFO    HandlerThread:287231 [system_monitor.py:start():194] Starting system monitor
+2025-12-16 14:41:36,619 INFO    SystemMonitor:287231 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-12-16 14:41:36,619 INFO    HandlerThread:287231 [system_monitor.py:probe():214] Collecting system info
+2025-12-16 14:41:36,620 INFO    SystemMonitor:287231 [interfaces.py:start():190] Started cpu monitoring
+2025-12-16 14:41:36,620 INFO    SystemMonitor:287231 [interfaces.py:start():190] Started disk monitoring
+2025-12-16 14:41:36,621 INFO    SystemMonitor:287231 [interfaces.py:start():190] Started gpu monitoring
+2025-12-16 14:41:36,622 INFO    SystemMonitor:287231 [interfaces.py:start():190] Started memory monitoring
+2025-12-16 14:41:36,622 INFO    SystemMonitor:287231 [interfaces.py:start():190] Started network monitoring
+2025-12-16 14:41:36,746 DEBUG   HandlerThread:287231 [system_info.py:probe():150] Probing system
+2025-12-16 14:41:36,747 DEBUG   HandlerThread:287231 [system_info.py:_probe_git():135] Probing git
+2025-12-16 14:41:36,752 DEBUG   HandlerThread:287231 [system_info.py:_probe_git():143] Probing git done
+2025-12-16 14:41:36,753 DEBUG   HandlerThread:287231 [system_info.py:probe():198] Probing system done
+2025-12-16 14:41:36,753 DEBUG   HandlerThread:287231 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-161-generic-x86_64-with-glibc2.35', 'python': '3.11.10', 'heartbeatAt': '2025-12-16T14:41:36.746318', 'startedAt': '2025-12-16T14:41:35.854973', 'docker': None, 'cuda': None, 'args': ('--id', 'muddy-clip', '--list_train', '/home/prj/data/valid_muddy_mix_audios_train.csv', '--list_val', '/home/prj/data/valid_muddy_mix_audios_val.csv', '--img_pool', 'maxpool', '--num_channels', '64', '--loss', 'l1', '--weighted_loss', '0', '--num_mix', '2', '--log_freq', '1', '--arch_frame', 'clip', '--num_frames', '11', '--stride_frames', '1', '--frameRate', '1', '--audLen', '65535', '--audRate', '11025', '--num_gpus', '1', '--gpu_ids', '1', '--workers', '4', '--batch_size_per_gpu', '16', '--lr_frame', '1e-4', '--lr_unet', '1e-4', '--num_epoch', '400', '--lr_steps', '100', '200', '300', '--dup_trainset', '5', '--eval_epoch', '1', '--ckpt', '/home/prj/DAVIS/result/muddy_mix_speech_sep', '--disp_iter', '200', '--num_vis', '3', '--wandb_run_name', 'muddy_mix_speech_sep', '--wandb_mode', 'online', '--dev_mode', '--split', 'test', '--mode', 'train'), 'state': 'running', 'program': '/home/prj/DAVIS/scripts/../main_fm_muddy.py', 'codePathLocal': None, 'codePath': 'main_fm_muddy.py', 'git': {'remote': 'https://github.com/WikiChao/DAVIS.git', 'commit': 'b30b12c7956cf3031d85cac5c44339d8e4004525'}, 'email': 'create0327@naver.com', 'root': '/home/prj/DAVIS', 'host': '880b206c63be', 'username': 'root', 'executable': '/opt/conda/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 1402.1961875000002, 'min': 800.0, 'max': 2501.0}, 'cpu_freq_per_core': [{'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1300.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 2403.603, 'min': 800.0, 'max': 2501.0}, {'current': 2400.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 1900.0, 'min': 800.0, 'max': 2501.0}, {'current': 1900.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 2501.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 2501.0, 'min': 800.0, 'max': 2501.0}, {'current': 2501.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 900.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 2499.572, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1200.0, 'min': 800.0, 'max': 2501.0}, {'current': 2300.0, 'min': 800.0, 'max': 2501.0}, {'current': 2000.0, 'min': 800.0, 'max': 2501.0}, {'current': 3299.54, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 2501.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 2300.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 1312.468, 'min': 800.0, 'max': 2501.0}, {'current': 2000.0, 'min': 800.0, 'max': 2501.0}, {'current': 1600.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}, {'current': 800.0, 'min': 800.0, 'max': 2501.0}], 'disk': {'/': {'total': 7392.190189361572, 'used': 6910.61153793335}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 251.58271408081055}}
+2025-12-16 14:41:36,753 INFO    HandlerThread:287231 [system_monitor.py:probe():224] Finished collecting system info
+2025-12-16 14:41:36,753 INFO    HandlerThread:287231 [system_monitor.py:probe():227] Publishing system info
+2025-12-16 14:41:36,753 DEBUG   HandlerThread:287231 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-12-16 14:41:37,462 INFO    Thread-12 :287231 [dir_watcher.py:_on_file_created():271] file/dir created: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/conda-environment.yaml
+2025-12-16 14:41:40,875 DEBUG   HandlerThread:287231 [system_info.py:_save_conda():222] Saving conda packages done
+2025-12-16 14:41:40,877 INFO    HandlerThread:287231 [system_monitor.py:probe():229] Finished publishing system info
+2025-12-16 14:41:41,462 INFO    Thread-12 :287231 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/conda-environment.yaml
+2025-12-16 14:41:41,463 INFO    Thread-12 :287231 [dir_watcher.py:_on_file_created():271] file/dir created: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/wandb-metadata.json
+2025-12-16 14:41:41,472 INFO    WriterThread:287231 [datastore.py:close():296] close: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/run-att0eajk.wandb
+2025-12-16 14:41:41,553 INFO    SenderThread:287231 [sender.py:finish():1546] shutting down sender
+2025-12-16 14:41:41,553 INFO    SenderThread:287231 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-12-16 14:41:42,464 INFO    SenderThread:287231 [dir_watcher.py:finish():388] scan: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files
+2025-12-16 14:41:42,464 INFO    SenderThread:287231 [dir_watcher.py:finish():402] scan save: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/conda-environment.yaml conda-environment.yaml
+2025-12-16 14:41:42,465 INFO    SenderThread:287231 [dir_watcher.py:finish():402] scan save: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/wandb-metadata.json wandb-metadata.json
+2025-12-16 14:41:42,465 INFO    SenderThread:287231 [dir_watcher.py:finish():402] scan save: /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/config.yaml config.yaml
+2025-12-16 14:41:42,468 INFO    SenderThread:287231 [file_pusher.py:finish():172] shutting down file pusher
+2025-12-16 14:41:42,468 INFO    SenderThread:287231 [file_pusher.py:join():178] waiting for file pusher
+2025-12-16 14:41:43,372 INFO    wandb-upload_2:287231 [upload_job.py:push():131] Uploaded file /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/config.yaml
+2025-12-16 14:41:43,384 INFO    wandb-upload_1:287231 [upload_job.py:push():131] Uploaded file /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/wandb-metadata.json
+2025-12-16 14:41:43,389 INFO    wandb-upload_0:287231 [upload_job.py:push():131] Uploaded file /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/files/conda-environment.yaml
+2025-12-16 14:41:43,969 INFO    SenderThread:287231 [file_stream.py:finish():614] file stream finish called
+2025-12-16 14:41:44,239 INFO    SenderThread:287231 [file_stream.py:finish():618] file stream finish is done
+2025-12-16 14:41:44,239 ERROR   StreamThr :287231 [internal.py:wandb_internal():174] Thread HandlerThread:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/internal/internal.py", line 279, in _process
+    self._hm.handle(record)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/internal/handler.py", line 138, in handle
+    handler(record)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/internal/handler.py", line 148, in handle_request
+    handler(record)
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/internal/handler.py", line 688, in handle_request_run_start
+    self._tb_watcher = tb_watcher.TBWatcher(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/internal/tb_watcher.py", line 126, in __init__
+    wandb.tensorboard.reset_state()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/lazyloader.py", line 58, in __getattr__
+    module = self._load()
+             ^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/lazyloader.py", line 33, in _load
+    module = importlib.import_module(self.__name__)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/conda/lib/python3.11/site-packages/wandb/integration/tensorboard/__init__.py", line 3, in <module>
+    from .log import _log, log, reset_state, tf_summary_to_dict  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/wandb/integration/tensorboard/log.py", line 35, in <module>
+    Summary = pb.Summary if pb else None
+              ^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/wandb/util.py", line 212, in __getattribute__
+    state.load()
+  File "/opt/conda/lib/python3.11/site-packages/wandb/util.py", line 205, in load
+    self.module.__spec__.loader.exec_module(self.module)
+  File "/opt/conda/lib/python3.11/site-packages/tensorboard/compat/proto/summary_pb2.py", line 17, in <module>
+    from tensorboard.compat.proto import histogram_pb2 as tensorboard_dot_compat_dot_proto_dot_histogram__pb2
+  File "/opt/conda/lib/python3.11/site-packages/tensorboard/compat/proto/histogram_pb2.py", line 36, in <module>
+    _descriptor.FieldDescriptor(
+  File "/opt/conda/lib/python3.11/site-packages/google/protobuf/descriptor.py", line 553, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates

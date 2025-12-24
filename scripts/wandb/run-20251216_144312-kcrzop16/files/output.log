@@ -1,0 +1,28 @@
+Epoch: [1][0/2675], Time: 5.16, Data: 3.36, lr_unet: 0.0001, lr_frame: 0.0001, loss: 2442.6328
+Dev mode: stopping early after 2 batches.
+Dev mode: running single epoch and early evaluation.
+Evaluating at 1 epochs...
+dd
+Traceback (most recent call last):
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 654, in <module>
+    main(args)
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 590, in main
+    evaluate(netWrapper, loader_val, history, epoch, args, writer)
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 386, in evaluate
+    sdr_mix, sdr, sir, sar = calc_metrics(batch_data, outputs, args)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 274, in calc_metrics
+    sdr_mix, _, _, _ = bss_eval_sources(
+                       ^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/mir_eval/separation.py", line 233, in bss_eval_sources
+    _bss_decomp_mtifilt(reference_sources,
+  File "/opt/conda/lib/python3.11/site-packages/mir_eval/separation.py", line 623, in _bss_decomp_mtifilt
+    e_interf = _project(reference_sources,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/mir_eval/separation.py", line 715, in _project
+    C = np.linalg.solve(G, D).reshape(flen, nsrc, order='F')
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/numpy/linalg/linalg.py", line 409, in solve
+    r = gufunc(a, b, signature=signature, extobj=extobj)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

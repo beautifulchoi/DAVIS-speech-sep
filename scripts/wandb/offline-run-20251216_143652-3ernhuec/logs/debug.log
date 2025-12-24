@@ -1,0 +1,23 @@
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_setup.py:_flush():80] Configure stats pid to 282842
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_setup.py:_flush():80] Loading settings from /root/.config/wandb/settings
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_setup.py:_flush():80] Loading settings from /home/prj/DAVIS/scripts/wandb/settings
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/prj/DAVIS/scripts/wandb/offline-run-20251216_143652-3ernhuec/logs/debug.log
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/prj/DAVIS/scripts/wandb/offline-run-20251216_143652-3ernhuec/logs/debug-internal.log
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_init.py:init():841] calling init triggers
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'id': 'muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001', 'num_mix': 2, 'arch_frame': 'clip', 'weights_frame': '', 'weights_unet': '', 'num_channels': 64, 'num_frames': 11, 'stride_frames': 1, 'img_pool': 'maxpool', 'loss': 'l1', 'weighted_loss': 0, 'log_freq': 1, 'split': 'test', 'num_gpus': 1, 'gpu_ids': '1', 'wandb_project': 'DAVIS', 'wandb_run_name': 'muddy_mix_speech_sep', 'wandb_mode': 'offline', 'batch_size_per_gpu': 16, 'workers': 4, 'num_val': -1, 'num_vis': 3, 'audLen': 65535, 'audRate': 11025, 'stft_frame': 1022, 'stft_hop': 256, 'imgSize': 224, 'frameRate': 1.0, 'seed': 1234, 'ckpt': '/home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001', 'vis': '/home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001/visualization/', 'dev_mode': True, 'disp_iter': 200, 'eval_epoch': 1, 'num_train_timesteps': 300, 'num_sample_timesteps': 300, 'mode': 'train', 'list_train': '/home/prj/data/valid_muddy_mix_audios_train.csv', 'list_val': '/home/prj/data/valid_muddy_mix_audios_val.csv', 'dup_trainset': 5, 'num_epoch': 400, 'lr_frame': 0.0001, 'lr_unet': 0.0001, 'lr_steps': [100, 200, 300], 'beta1': 0.9, 'weight_decay': 0.0001, 'batch_size': 16, 'device': device(type='cuda'), 'best_err': inf, 'best_sdr': -inf, 'testing': False, 'epoch_iters': 2675, '_wandb': {}}
+2025-12-16 14:36:52,891 INFO    MainThread:282842 [wandb_init.py:init():889] starting backend
+2025-12-16 14:36:53,151 INFO    MainThread:282842 [wandb_init.py:init():892] sending inform_init request
+2025-12-16 14:36:53,154 INFO    MainThread:282842 [wandb_init.py:init():900] backend started and connected
+2025-12-16 14:36:53,164 INFO    MainThread:282842 [wandb_init.py:init():970] updated telemetry
+2025-12-16 14:36:53,169 INFO    MainThread:282842 [wandb_init.py:init():994] communicating run to backend with 120.0 second timeout
+2025-12-16 14:36:53,394 INFO    MainThread:282842 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-16 14:36:53,615 INFO    MainThread:282842 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-16 14:36:53,616 INFO    MainThread:282842 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-16 14:36:53,616 INFO    MainThread:282842 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-16 14:36:53,616 INFO    MainThread:282842 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-16 14:36:53,617 INFO    MainThread:282842 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-16 14:37:25,787 INFO    wandb-AsyncioManager-main:282842 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-16 14:37:25,787 INFO    wandb-AsyncioManager-main:282842 [mailbox.py:close():137] Closing mailbox, abandoning 0 handles.

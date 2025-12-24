@@ -1,0 +1,152 @@
+{
+  "os":  "Linux-5.15.0-161-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.11.10",
+  "startedAt":  "2025-12-16T13:12:26.274517Z",
+  "args":  [
+    "--id",
+    "muddy-clip",
+    "--list_train",
+    "/home/prj/data/valid_muddy_mix_audios_train.csv",
+    "--list_val",
+    "/home/prj/data/valid_muddy_mix_audios_val.csv",
+    "--img_pool",
+    "maxpool",
+    "--num_channels",
+    "64",
+    "--loss",
+    "l1",
+    "--weighted_loss",
+    "0",
+    "--num_mix",
+    "2",
+    "--log_freq",
+    "1",
+    "--arch_frame",
+    "clip",
+    "--num_frames",
+    "11",
+    "--stride_frames",
+    "1",
+    "--frameRate",
+    "1",
+    "--audLen",
+    "65535",
+    "--audRate",
+    "11025",
+    "--num_gpus",
+    "1",
+    "--gpu_ids",
+    "1",
+    "--workers",
+    "4",
+    "--batch_size_per_gpu",
+    "16",
+    "--lr_frame",
+    "1e-4",
+    "--lr_unet",
+    "1e-4",
+    "--num_epoch",
+    "400",
+    "--lr_steps",
+    "100",
+    "200",
+    "300",
+    "--dup_trainset",
+    "5",
+    "--eval_epoch",
+    "1",
+    "--ckpt",
+    "/home/prj/DAVIS/result/muddy_mix_speech_sep",
+    "--disp_iter",
+    "200",
+    "--num_vis",
+    "40",
+    "--split",
+    "test",
+    "--mode",
+    "train"
+  ],
+  "program":  "/home/prj/DAVIS/scripts/../main_fm_muddy.py",
+  "codePath":  "main_fm_muddy.py",
+  "git":  {
+    "remote":  "https://github.com/WikiChao/DAVIS.git",
+    "commit":  "b30b12c7956cf3031d85cac5c44339d8e4004525"
+  },
+  "email":  "ccyjun123@gmail.com",
+  "root":  "/home/prj/DAVIS/scripts",
+  "host":  "880b206c63be",
+  "executable":  "/opt/conda/bin/python",
+  "cpu_count":  32,
+  "cpu_count_logical":  64,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  8,
+  "disk":  {
+    "/":  {
+      "total":  "7937303777280",
+      "used":  "7418367434752"
+    }
+  },
+  "memory":  {
+    "total":  "270134882304"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-57117fc2-3cb8-96f0-74c8-57daf4aff601"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-2f0d694a-5290-be95-27e1-e745395277e9"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-d7ba7795-65cc-df9b-200e-bce3c568aa16"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-56587e25-81a2-3e2b-c8ca-0d8c965e054f"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-6f155848-6204-6ccd-68bb-5a64c9f574e7"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-0f0e9900-4760-c69c-4ad1-cb12237102af"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-5d5e763e-5a13-b9a9-b986-530bb9061ea9"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-4b597b82-1b7e-e30c-7e2a-799f7955f128"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "writerId":  "3i0uqrvxhmggkwapcp0wlxgs4cmhcabt"
+}

@@ -1,0 +1,278 @@
+
+Epoch: [1][0/2675], Time: 5.03, Data: 3.08, lr_unet: 0.0001, lr_frame: 0.0001, loss: 2442.6328
+Epoch: [1][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 223.8119
+Epoch: [1][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 109.7056
+Epoch: [1][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 109.6482
+Epoch: [1][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 200.7406
+Epoch: [1][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 83.2198
+Epoch: [1][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 122.4872
+Epoch: [1][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 92.1634
+Epoch: [1][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 78.2607
+Epoch: [1][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 156.4531
+Epoch: [1][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 88.1702
+Epoch: [1][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 170.7379
+Epoch: [1][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 109.5854
+Epoch: [1][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 66.6533
+Evaluating at 1 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 1,SDR_mixture: 0.0808, SDR: -4.3230, SIR: inf, SAR: -4.3230
+Saving checkpoints at 1 epochs.
+saving best at 1 epoch
+Epoch: [2][0/2675], Time: 4.00, Data: 2.81, lr_unet: 0.0001, lr_frame: 0.0001, loss: 79.4395
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step only supports monotonically increasing values, use define_metric to set a custom x axis. For details see: https://wandb.me/define-metric
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 5275. Dropping entry: {'eval sdr': -4.323011513794575, '_timestamp': 1765907966.7380471}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 5275. Dropping entry: {'eval sir': inf, '_timestamp': 1765907966.7383976}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 1 is less than current step: 5275. Dropping entry: {'eval sar': -4.323011513794575, '_timestamp': 1765907966.7385678}).
+Epoch: [2][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 81.1168
+Epoch: [2][400/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 58.2506
+Epoch: [2][600/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 96.2749
+Epoch: [2][800/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 82.5637
+Epoch: [2][1000/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 79.8031
+Epoch: [2][1200/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 60.6133
+Epoch: [2][1400/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 115.0116
+Epoch: [2][1600/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 35.5796
+Epoch: [2][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 38.3389
+Epoch: [2][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 48.8214
+Epoch: [2][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 53.9256
+Epoch: [2][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 37.4755
+Epoch: [2][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 31.4432
+Evaluating at 2 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 2,SDR_mixture: 0.0808, SDR: -11.1659, SIR: inf, SAR: -11.1659
+Saving checkpoints at 2 epochs.
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 7950. Dropping entry: {'eval sdr': -11.16593781977929, '_timestamp': 1765918208.8349888}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 7950. Dropping entry: {'eval sir': inf, '_timestamp': 1765918208.835452}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 7950. Dropping entry: {'eval sar': -11.16593781977929, '_timestamp': 1765918208.8356085}).
+Epoch: [3][0/2675], Time: 3.36, Data: 2.22, lr_unet: 0.0001, lr_frame: 0.0001, loss: 56.4140
+Epoch: [3][200/2675], Time: 1.16, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 38.5152
+Epoch: [3][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.9264
+Epoch: [3][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 49.1111
+Epoch: [3][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 31.4795
+Epoch: [3][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 32.3625
+Epoch: [3][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.5132
+Epoch: [3][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 28.6040
+Epoch: [3][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 43.4675
+Epoch: [3][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.6989
+Epoch: [3][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 38.7452
+Epoch: [3][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 30.5495
+Epoch: [3][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 33.4681
+Epoch: [3][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.5170
+Evaluating at 3 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 3,SDR_mixture: 0.0808, SDR: 0.2309, SIR: inf, SAR: 0.2309
+Saving checkpoints at 3 epochs.
+saving best at 3 epoch
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 10625. Dropping entry: {'eval sdr': 0.23088748582932087, '_timestamp': 1765928118.6009803}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 10625. Dropping entry: {'eval sir': inf, '_timestamp': 1765928118.6013355}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 10625. Dropping entry: {'eval sar': 0.23088748582932087, '_timestamp': 1765928118.6015148}).
+Epoch: [4][0/2675], Time: 3.69, Data: 2.51, lr_unet: 0.0001, lr_frame: 0.0001, loss: 41.1612
+Epoch: [4][200/2675], Time: 1.16, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 36.2309
+Epoch: [4][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 35.1344
+Epoch: [4][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 30.5427
+Epoch: [4][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 74.3771
+Epoch: [4][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 36.1155
+Epoch: [4][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 57.0679
+Epoch: [4][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 27.9379
+Epoch: [4][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 31.9516
+Epoch: [4][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 31.7106
+Epoch: [4][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 30.3215
+Epoch: [4][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 27.4096
+Epoch: [4][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.9246
+Epoch: [4][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 69.2993
+Evaluating at 4 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 4,SDR_mixture: 0.0808, SDR: 1.1815, SIR: inf, SAR: 1.1815
+Saving checkpoints at 4 epochs.
+saving best at 4 epoch
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 13300. Dropping entry: {'eval sdr': 1.1815398359510745, '_timestamp': 1765931972.760855}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 13300. Dropping entry: {'eval sir': inf, '_timestamp': 1765931972.7611978}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 13300. Dropping entry: {'eval sar': 1.1815398359510745, '_timestamp': 1765931972.761372}).
+Epoch: [5][0/2675], Time: 4.11, Data: 2.96, lr_unet: 0.0001, lr_frame: 0.0001, loss: 50.6259
+Epoch: [5][200/2675], Time: 1.19, Data: 0.04, lr_unet: 0.0001, lr_frame: 0.0001, loss: 38.7639
+Epoch: [5][400/2675], Time: 1.18, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.9937
+Epoch: [5][600/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 38.4705
+Epoch: [5][800/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 43.4956
+Epoch: [5][1000/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 32.5882
+Epoch: [5][1200/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 31.2256
+Epoch: [5][1400/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 45.3001
+Epoch: [5][1600/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 34.7935
+Epoch: [5][1800/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 25.5227
+Epoch: [5][2000/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 45.3319
+Epoch: [5][2200/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 24.4186
+Epoch: [5][2400/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 27.1793
+Epoch: [5][2600/2675], Time: 1.17, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 46.9392
+Evaluating at 5 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 5,SDR_mixture: 0.0808, SDR: -1.0387, SIR: inf, SAR: -1.0387
+Saving checkpoints at 5 epochs.
+Epoch: [6][0/2675], Time: 3.16, Data: 2.00, lr_unet: 0.0001, lr_frame: 0.0001, loss: 40.9510
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 15975. Dropping entry: {'eval sdr': -1.0387026280431595, '_timestamp': 1765935916.6746957}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 15975. Dropping entry: {'eval sir': inf, '_timestamp': 1765935916.6750033}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 15975. Dropping entry: {'eval sar': -1.0387026280431595, '_timestamp': 1765935916.6751504}).
+Epoch: [6][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 32.8113
+Epoch: [6][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 31.8669
+Epoch: [6][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 20.3053
+Epoch: [6][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 29.4738
+Epoch: [6][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 46.8671
+Epoch: [6][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 23.4191
+Epoch: [6][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 42.5865
+Epoch: [6][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 41.1866
+Epoch: [6][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 19.8541
+Epoch: [6][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.6673
+Epoch: [6][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 39.6296
+Epoch: [6][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 19.0444
+Epoch: [6][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 19.9859
+Evaluating at 6 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 6,SDR_mixture: 0.0808, SDR: 2.9140, SIR: inf, SAR: 2.9140
+Saving checkpoints at 6 epochs.
+saving best at 6 epoch
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 18650. Dropping entry: {'eval sdr': 2.914003580390157, '_timestamp': 1765940015.5352564}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 18650. Dropping entry: {'eval sir': inf, '_timestamp': 1765940015.5356917}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 18650. Dropping entry: {'eval sar': 2.914003580390157, '_timestamp': 1765940015.5359561}).
+Epoch: [7][0/2675], Time: 4.17, Data: 3.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.2170
+Epoch: [7][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 35.3709
+Epoch: [7][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 30.2893
+Epoch: [7][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 27.3212
+Epoch: [7][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 23.0399
+Epoch: [7][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 21.2214
+Epoch: [7][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 24.7641
+Epoch: [7][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 24.7067
+Epoch: [7][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 13.5478
+Epoch: [7][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 23.1380
+Epoch: [7][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 24.6520
+Epoch: [7][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 20.9935
+Epoch: [7][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 21.1802
+Epoch: [7][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 19.7008
+Evaluating at 7 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 7,SDR_mixture: 0.0808, SDR: 0.7767, SIR: inf, SAR: 0.7767
+Saving checkpoints at 7 epochs.
+Epoch: [8][0/2675], Time: 3.35, Data: 2.17, lr_unet: 0.0001, lr_frame: 0.0001, loss: 23.6828
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 21325. Dropping entry: {'eval sdr': 0.7767444355331666, '_timestamp': 1765944051.1711714}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 21325. Dropping entry: {'eval sir': inf, '_timestamp': 1765944051.171647}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 21325. Dropping entry: {'eval sar': 0.7767444355331666, '_timestamp': 1765944051.1719112}).
+Epoch: [8][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 18.1243
+Epoch: [8][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 31.7763
+Epoch: [8][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 29.3341
+Epoch: [8][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 20.1404
+Epoch: [8][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 27.2637
+Epoch: [8][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 38.2044
+Epoch: [8][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 28.5837
+Epoch: [8][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 28.2283
+Epoch: [8][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.3085
+Epoch: [8][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.6317
+Epoch: [8][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 27.0444
+Epoch: [8][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 30.8320
+Epoch: [8][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 39.0243
+Evaluating at 8 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 8,SDR_mixture: 0.0808, SDR: 2.3804, SIR: inf, SAR: 2.3804
+Saving checkpoints at 8 epochs.
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 24000. Dropping entry: {'eval sdr': 2.3804024121628973, '_timestamp': 1765948091.3841078}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 24000. Dropping entry: {'eval sir': inf, '_timestamp': 1765948091.3845737}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 24000. Dropping entry: {'eval sar': 2.3804024121628973, '_timestamp': 1765948091.3848398}).
+Epoch: [9][0/2675], Time: 3.00, Data: 1.83, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.0170
+Epoch: [9][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 29.1631
+Epoch: [9][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 26.4681
+Epoch: [9][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 38.8568
+Epoch: [9][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 28.7779
+Epoch: [9][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 29.1253
+Epoch: [9][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.5407
+Epoch: [9][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 17.1865
+Epoch: [9][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 41.7276
+Epoch: [9][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 44.6420
+Epoch: [9][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 20.4193
+Epoch: [9][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 21.7460
+Epoch: [9][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 23.2763
+Epoch: [9][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 30.7001
+Evaluating at 9 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 9,SDR_mixture: 0.0808, SDR: 2.1785, SIR: inf, SAR: 2.1785
+Saving checkpoints at 9 epochs.
+Epoch: [10][0/2675], Time: 3.15, Data: 2.00, lr_unet: 0.0001, lr_frame: 0.0001, loss: 51.8949
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 26675. Dropping entry: {'eval sdr': 2.178545199368978, '_timestamp': 1765952092.0755715}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 26675. Dropping entry: {'eval sir': inf, '_timestamp': 1765952092.0760937}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 26675. Dropping entry: {'eval sar': 2.178545199368978, '_timestamp': 1765952092.0763655}).
+Epoch: [10][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.2090
+Epoch: [10][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 33.5931
+Epoch: [10][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 48.8074
+Epoch: [10][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 25.9818
+Epoch: [10][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 17.0373
+Epoch: [10][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 39.8825
+Epoch: [10][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 33.2792
+Epoch: [10][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 35.3968
+Epoch: [10][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 44.9871
+Epoch: [10][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 19.4656
+Epoch: [10][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 19.7285
+Epoch: [10][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 33.5205
+Epoch: [10][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.9108
+Evaluating at 10 epochs...
+저장떄려
+저장떄려
+저장떄려
+[Eval Summary] Epoch: 10,SDR_mixture: 0.0808, SDR: 5.2472, SIR: inf, SAR: 5.2472
+Saving checkpoints at 10 epochs.
+saving best at 10 epoch
+Epoch: [11][0/2675], Time: 3.90, Data: 2.72, lr_unet: 0.0001, lr_frame: 0.0001, loss: 28.1468
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 29350. Dropping entry: {'eval sdr': 5.247241396520881, '_timestamp': 1765956107.2175567}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 29350. Dropping entry: {'eval sir': inf, '_timestamp': 1765956107.217845}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 29350. Dropping entry: {'eval sar': 5.247241396520881, '_timestamp': 1765956107.2179983}).
+Epoch: [11][200/2675], Time: 1.17, Data: 0.03, lr_unet: 0.0001, lr_frame: 0.0001, loss: 22.3695
+Epoch: [11][400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 19.5189
+Epoch: [11][600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 23.3618
+Epoch: [11][800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 47.2644
+Epoch: [11][1000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 35.7895
+Epoch: [11][1200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 18.7276
+Epoch: [11][1400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 17.3023
+Epoch: [11][1600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 28.8441
+Epoch: [11][1800/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 25.0740
+Epoch: [11][2000/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 17.5249
+Epoch: [11][2200/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 21.0236
+Epoch: [11][2400/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 41.5624
+Epoch: [11][2600/2675], Time: 1.16, Data: 0.02, lr_unet: 0.0001, lr_frame: 0.0001, loss: 24.9616
+Evaluating at 11 epochs...
+저장떄려
+저장떄려
+저장떄려
+Traceback (most recent call last):
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 654, in <module>
+    main(args)
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 599, in main
+    evaluate(netWrapper, loader_val, history, epoch, args, writer)
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 386, in evaluate
+    sdr_mix, sdr, sir, sar = calc_metrics(batch_data, outputs, args)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prj/DAVIS/scripts/../main_fm_muddy.py", line 270, in calc_metrics
+    sdr, sir, sar, _ = bss_eval_sources(
+                       ^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/mir_eval/separation.py", line 233, in bss_eval_sources
+    _bss_decomp_mtifilt(reference_sources,
+  File "/opt/conda/lib/python3.11/site-packages/mir_eval/separation.py", line 620, in _bss_decomp_mtifilt
+    e_spat = _project(reference_sources[j, np.newaxis, :], estimated_source,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/mir_eval/separation.py", line 715, in _project
+    C = np.linalg.solve(G, D).reshape(flen, nsrc, order='F')
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/numpy/linalg/linalg.py", line 409, in solve
+    r = gufunc(a, b, signature=signature, extobj=extobj)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

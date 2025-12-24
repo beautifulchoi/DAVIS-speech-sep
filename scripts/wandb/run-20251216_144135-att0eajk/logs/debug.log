@@ -1,0 +1,35 @@
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Configure stats pid to 286969
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Loading settings from /home/prj/DAVIS/scripts/wandb/settings
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main_fm_muddy.py', 'program_abspath': '/home/prj/DAVIS/main_fm_muddy.py', 'program': '/home/prj/DAVIS/scripts/../main_fm_muddy.py'}
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_init.py:_log_setup():521] Logging user logs to /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/logs/debug.log
+2025-12-16 14:41:35,857 INFO    MainThread:286969 [wandb_init.py:_log_setup():522] Logging internal logs to /home/prj/DAVIS/scripts/wandb/run-20251216_144135-att0eajk/logs/debug-internal.log
+2025-12-16 14:41:35,858 INFO    MainThread:286969 [wandb_init.py:init():561] calling init triggers
+2025-12-16 14:41:35,858 INFO    MainThread:286969 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'id': 'muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001', 'num_mix': 2, 'arch_frame': 'clip', 'weights_frame': '', 'weights_unet': '', 'num_channels': 64, 'num_frames': 11, 'stride_frames': 1, 'img_pool': 'maxpool', 'loss': 'l1', 'weighted_loss': 0, 'log_freq': 1, 'split': 'test', 'num_gpus': 1, 'gpu_ids': '1', 'wandb_project': 'DAVIS', 'wandb_run_name': 'muddy_mix_speech_sep', 'wandb_mode': 'online', 'batch_size_per_gpu': 16, 'workers': 4, 'num_val': -1, 'num_vis': 3, 'audLen': 65535, 'audRate': 11025, 'stft_frame': 1022, 'stft_hop': 256, 'imgSize': 224, 'frameRate': 1.0, 'seed': 1234, 'ckpt': '/home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001', 'vis': '/home/prj/DAVIS/result/muddy_mix_speech_sep/muddy-clip-2mix-LogFreq-frames11stride1-channels64-epoch400-step100_200_300-lr_unet0.0001/visualization/', 'dev_mode': True, 'disp_iter': 200, 'eval_epoch': 1, 'num_train_timesteps': 300, 'num_sample_timesteps': 300, 'mode': 'train', 'list_train': '/home/prj/data/valid_muddy_mix_audios_train.csv', 'list_val': '/home/prj/data/valid_muddy_mix_audios_val.csv', 'dup_trainset': 5, 'num_epoch': 400, 'lr_frame': 0.0001, 'lr_unet': 0.0001, 'lr_steps': [100, 200, 300], 'beta1': 0.9, 'weight_decay': 0.0001, 'batch_size': 16, 'device': device(type='cuda'), 'best_err': inf, 'best_sdr': -inf, 'testing': False, 'epoch_iters': 2675}
+2025-12-16 14:41:35,858 INFO    MainThread:286969 [wandb_init.py:init():611] starting backend
+2025-12-16 14:41:35,858 INFO    MainThread:286969 [wandb_init.py:init():615] setting up manager
+2025-12-16 14:41:35,860 INFO    MainThread:286969 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-12-16 14:41:35,861 INFO    MainThread:286969 [wandb_init.py:init():623] backend started and connected
+2025-12-16 14:41:35,866 INFO    MainThread:286969 [wandb_init.py:init():715] updated telemetry
+2025-12-16 14:41:35,874 INFO    MainThread:286969 [wandb_init.py:init():748] communicating run to backend with 120.0 second timeout
+2025-12-16 14:41:36,470 INFO    MainThread:286969 [wandb_run.py:_on_init():2357] communicating current version
+2025-12-16 14:41:36,553 INFO    MainThread:286969 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.23.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-12-16 14:41:36,553 INFO    MainThread:286969 [wandb_init.py:init():799] starting run threads in backend
+2025-12-16 14:41:44,451 WARNING MsgRouterThr:286969 [router.py:message_loop():77] message_loop has been closed
+2025-12-16 14:41:51,690 ERROR   MainThread:286969 [wandb_init.py:init():1199] transport failed
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 812, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed
